@@ -4,16 +4,18 @@
 }
 
 .header {
+  // overflow: hidden;
+  @media screen and (max-width:480px) {margin: 0;}
   z-index: 10;
   position: fixed;
   height: 60px;
-  margin: -35px 18% 0;
+  margin: 0px 18%;
   width: 100%;
   background-color: rgba(255,255,255,0.8);
+  display: flex;
   
   h2 {
     margin: 0 15px;
-    float: left;
     line-height: 60px;
     font-family: "impact";
   }
@@ -34,12 +36,14 @@
 }
 
 .container {
-  margin: 2% 18%;
-  padding-top: 30px;
+  margin: 0 18%;
+  @media screen and (max-width:480px) {margin: 0;}
+  padding-top: 80px;
   overflow: hidden;
   
   .top-image img {
     width: 100%;
+    
   }
   
   .about {
@@ -81,16 +85,17 @@
     
     
     ul {
-      margin: 0 auto;
-      width: 660px;
-      // width: 655px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
     }
       
     li {
+      width: 200px;
       list-style-type: none;
-      float: left;
       margin: 10px;
-      text-align-last: left;
+      text-align: left;
       position: relative;
       overflow: hidden;
       
