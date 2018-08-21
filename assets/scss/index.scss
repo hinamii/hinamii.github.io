@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: fixed;
+  height: 60px;
+  margin: -35px 18% 0;
+  width: 100%;
+  background-color: rgba(255,255,255,0.8);
+  
+  h2 {
+    margin: 0 15px;
+    float: left;
+    line-height: 60px;
+    font-family: "impact";
+  }
+  
+  ul {
+    
+    li {
+      list-style-type: none;
+      float: left;
+      margin: 0 5px;
+    }
+    a {
+      line-height: 60px;
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}
+
+.container {
+  margin: 2% 18%;
+  padding-top: 30px;
+  overflow: hidden;
+  
+  .top-image img {
+    width: 100%;
+  }
+  
+  .about {
+    text-align: center;
+    padding-top: 50px;
+    
+    h1 {
+      font-family: "impact";
+    }
+    
+    img {
+      width: 150px;
+      border-radius: 75px;
+      border: 1px #ccc solid;
+    }
+    
+    .contact {
+      margin-top: 20px;
+      a {
+        text-decoration: none;
+        color: #94b4b0;
+        
+        &:hover {
+          color: #b9e1dc;
+        }
+      }
+    }
+  }
+  
+  .works {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 35px;
+    
+    h2 {
+      font-family: "impact";
+    }
+    
+    
+    
+    ul {
+      margin: 0 auto;
+      width: 660px;
+      // width: 655px;
+    }
+      
+    li {
+      list-style-type: none;
+      float: left;
+      margin: 10px;
+      text-align-last: left;
+      position: relative;
+      overflow: hidden;
+      
+      figure {
+        img {width: 200px;}
+
+        figcaption {
+          font-size: 18px;
+          position: absolute;
+          top: -100%;
+          left: 0;
+          z-index: 2;
+          width: 100%;
+          height: 94.5%;
+          // padding: 20px;
+          background: rgba(0,0,0,.6);
+          -webkit-transition: .3s;
+          transition: .3s;
+          opacity: 1;
+        }
+      
+        
+      
+        &:hover {
+
+
+          figcaption {
+            // opacity: 1;
+            // transition-duration: 900ms;
+            color: #fff1ff;
+            top: 0;
+            left: 0;
+          }
+          // img {
+          //   filter: blur(4px);/*ぼかし度*/
+          //   transition-duration: 600ms;
+          // }
+        }
+        
+      }
+
+      
+    }
+    
+  }
+  
+  
+}
+.footer {
+  // position: relative;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background-color: #282a36;
+  color: #f8f8f2;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: #ffb86c;
+  }
+}
