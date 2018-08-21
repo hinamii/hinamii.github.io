@@ -111,7 +111,11 @@
       overflow: hidden;
       
       figure {
-        img {width: 200px;}
+        // width: 200px;
+        
+        img {
+          width: 200px;
+        }
 
         figcaption {
           font-size: 18px;

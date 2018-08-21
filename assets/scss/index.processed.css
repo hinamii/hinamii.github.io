@@ -25,10 +25,10 @@
   margin: 0 15px;
   line-height: 60px;
   font-family: "impact","Anton";
-  
-  small {
-    color: #666;
-  }
+}
+
+.header h2 small {
+  color: #666;
 }
 
 .header ul li {
