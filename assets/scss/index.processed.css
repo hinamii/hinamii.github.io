@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Noto+Sans:400,700|Noto+Serif:400,700");
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +24,7 @@
 .header h2 {
   margin: 0 15px;
   line-height: 60px;
-  font-family: "impact";
+  font-family: "impact","Anton";
 }
 
 .header ul li {
@@ -36,12 +37,14 @@
   line-height: 60px;
   text-decoration: none;
   color: #000;
+  font-family: "Noto Sans";
 }
 
 .container {
   margin: 0 18%;
-  padding-top: 80px;
+  padding-top: 60px;
   overflow: hidden;
+  font-family: "Noto Sans";
 }
 
 @media screen and (max-width: 480px) {
@@ -60,7 +63,7 @@
 }
 
 .container .about h1 {
-  font-family: "impact";
+  font-family: "impact","Anton";
 }
 
 .container .about img {
@@ -89,7 +92,7 @@
 }
 
 .container .works h2 {
-  font-family: "impact";
+  font-family: "impact","Anton";
 }
 
 .container .works ul {
@@ -133,6 +136,7 @@
 }
 
 .footer {
+  font-family: "Noto Sans";
   height: 40px;
   line-height: 40px;
   width: 100%;
