@@ -104,16 +104,17 @@
       width: 200px;
       list-style-type: none;
       margin: 10px;
-      text-align: left;
       position: relative;
       overflow: hidden;
 
       figure {
+        
         width: 200px;
         height: 200px;
 
         img {
           width: 200px;
+          // border: 1px #ccc solid;
         }
 
         figcaption {
@@ -141,6 +142,7 @@
     }
   }
 }
+
 .footer {
   font-family: "Noto Sans";
   height: 40px;
