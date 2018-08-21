@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Noto+Sans:400,700|Noto+Serif:400,700');
+@import url("https://fonts.googleapis.com/css?family=Anton|Noto+Sans:400,700|Noto+Serif:400,700");
 
 * {
   margin: 0;
@@ -6,31 +6,30 @@
 }
 
 .header {
-  // overflow: hidden;
-  @media screen and (max-width:480px) {
+  @media screen and (max-width: 480px) {
     margin: 0;
     transform: translate3d(0, 0, 0);
   }
+  
   z-index: 10;
   position: fixed;
   height: 60px;
   margin: 0px 18%;
   width: 100%;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   display: flex;
-  
+
   h2 {
     margin: 0 15px;
     line-height: 60px;
-    font-family: "impact","Anton";
-    
+    font-family: "impact", "Anton";
+
     small {
       color: #666;
     }
   }
-  
+
   ul {
-    
     li {
       list-style-type: none;
       float: left;
@@ -47,61 +46,60 @@
 
 .container {
   margin: 0 18%;
-  @media screen and (max-width:480px) {margin: 0;}
+  @media screen and (max-width: 480px) {
+    margin: 0;
+  }
   padding-top: 60px;
   overflow: hidden;
   font-family: "Noto Sans";
-  
+
   .top-image img {
     width: 100%;
-    
   }
-  
+
   .about {
     text-align: center;
     padding-top: 50px;
-    
+
     h1 {
-      font-family: "impact","Anton";
+      font-family: "impact", "Anton";
     }
-    
+
     img {
       width: 150px;
       border-radius: 75px;
       border: 1px #ccc solid;
     }
-    
+
     .contact {
       margin-top: 20px;
       a {
         text-decoration: none;
         color: #94b4b0;
-        
+
         &:hover {
           color: #b9e1dc;
         }
       }
     }
   }
-  
+
   .works {
     padding-top: 100px;
     text-align: center;
     font-size: 35px;
-    
+
     h2 {
-      font-family: "impact","Anton";
+      font-family: "impact", "Anton";
     }
-    
-    
-    
+
     ul {
       width: 100%;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
     }
-      
+
     li {
       width: 200px;
       list-style-type: none;
@@ -109,10 +107,11 @@
       text-align: left;
       position: relative;
       overflow: hidden;
-      
+
       figure {
-        // width: 200px;
-        
+        width: 200px;
+        height: 200px;
+
         img {
           width: 200px;
         }
@@ -124,43 +123,25 @@
           left: 0;
           z-index: 2;
           width: 100%;
-          height: 94.5%;
-          // padding: 20px;
-          background: rgba(0,0,0,.6);
-          -webkit-transition: .3s;
-          transition: .3s;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.6);
+          -webkit-transition: 0.3s;
+          transition: 0.3s;
           opacity: 1;
         }
-      
-        
-      
+
         &:hover {
-
-
           figcaption {
-            // opacity: 1;
-            // transition-duration: 900ms;
             color: #fff1ff;
             top: 0;
             left: 0;
           }
-          // img {
-          //   filter: blur(4px);/*ぼかし度*/
-          //   transition-duration: 600ms;
-          // }
         }
-        
       }
-
-      
     }
-    
   }
-  
-  
 }
 .footer {
-  // position: relative;
   font-family: "Noto Sans";
   height: 40px;
   line-height: 40px;
